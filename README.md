@@ -12,6 +12,9 @@ requiring the overhead of spawning a VM all the time.
 - Output will be displayed on stdout
 - The **main.o** and final elf file **out** will be generated under src it self.
 - You can get rid of the above two files using make clean
+- You can enter the asmenv and debug your code (not recommended) or the provided buildscript using
+  ``` make rundebug ```
+- You can get rid of an existing asmenv container using ``` make clean-container ```
 
 ### Some FAQs
 
