@@ -6,5 +6,5 @@ run:
 	docker rm asmenv
 
 clean:
-	rm src/main.o src/out
+	rm src/*.o src/out
 	
